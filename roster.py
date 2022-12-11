@@ -40,6 +40,8 @@ if len(fname) < 1:
 
 str_data = open(fname).read()
 json_data = json.loads(str_data)
+#loads the data 
+#entry would be for each list inside the roster data
 
 for entry in json_data:
 
